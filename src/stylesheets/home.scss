@@ -1,0 +1,88 @@
+.homepage-wrapper {
+    height: 100vh;
+    .banner-text-wrapper {
+        position: relative;
+        top: 110px;
+        width: 80vw;
+        height: 300px;
+        margin: 0 auto;
+        font-weight: 400;
+        z-index: 10;
+        color: black;
+        text-align: center;
+
+
+        .banner-text {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            height: 200px;
+
+            .banner-header {
+                background-color: aliceblue;
+                opacity: 0.6;
+
+                .headline, .intro {
+                    opacity: 1;
+                }
+                .headline {
+                    font-size: 40px;
+                    padding: 20px;
+                }
+                .intro {
+                    font-size: 30px;
+                    font-style: italic;
+                    padding: 20px;
+                }
+
+            }
+            .banner-request {
+                background-color: rgb(34, 60, 132);
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .request-button {
+                    border: 1px solid aliceblue;
+                    width: 80%;
+                    height: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 700;
+                }
+                :hover {
+                    background-color: aliceblue;
+                    color: rgb(34, 60, 132);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homepage-wrapper {
+        .banner-text-wrapper {
+            .banner-text {
+                // height: 300px;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+
+                .banner-header {
+                    .headline {
+                        font-size: 30px;
+                    }
+                    .intro {
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+                }
+            }
+            .banner-request {
+                // grid-row: 2;
+                height: 100px;
+            }
+        }
+    }
+}

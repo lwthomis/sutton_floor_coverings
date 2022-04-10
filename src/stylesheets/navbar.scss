@@ -1,0 +1,55 @@
+.navbar-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(249, 211, 140);
+    display: flex;
+    height: 150px;
+
+    .sutton-logo-wrapper {
+        .sutton-logo {
+            height: 80%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+        }
+    }
+
+    .navbar-links {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        .navbar-link {
+            margin: 0 1rem;
+            font-size: 1.5rem;
+            color: rgb(105, 101, 101);
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: rgba(252, 252, 252, 0.865);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        .sutton-logo {
+            height: auto;
+            width: 200px;
+        }
+        .navbar-links {
+            margin-left: 0;
+            margin-top: 10px;
+            .navbar-link {
+                font-size: .75rem;
+            }
+        }
+    }
+}
