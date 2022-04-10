@@ -1,0 +1,32 @@
+.showcase-wrapper {
+    .showcase-imgs-wrapper { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .showcase-img-wrapper {
+            display: flex;
+            margin: 5px;
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .showcase-wrapper {
+        .showcase-imgs-wrapper {
+            display: flex;
+            flex-direction: column;
+            .showcase-img-wrapper {
+                margin: 5px;
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
