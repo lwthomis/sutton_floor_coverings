@@ -19,7 +19,7 @@
 
             .banner-header {
                 background-color: aliceblue;
-                opacity: 0.6;
+                opacity: 0.8;
 
                 .headline, .intro {
                     opacity: 1;
@@ -43,6 +43,8 @@
                 align-items: center;
 
                 .request-button {
+                    color: aliceblue;
+                    text-decoration: none;
                     border: 1px solid aliceblue;
                     width: 80%;
                     height: 50%;

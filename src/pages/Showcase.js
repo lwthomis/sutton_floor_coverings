@@ -60,6 +60,15 @@ function Showcase() {
           <img src={resTileOne} alt='living tile' />
         </div>
       </div>
+      <div className='showcase-text-wrapper'>
+        <div className='text-header'>
+          COMMERCIAL &amp; RESIDENTIAL FLOORING INSTALLATION SERVICES
+        </div>
+        <p>
+          When you work with Sutton Floor Coverings, you can count on an experienced 
+          team of flooring installers who will treat your business/home as their own.
+        </p>  
+      </div>
     </div>
     </Layout>
   )

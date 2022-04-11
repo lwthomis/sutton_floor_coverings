@@ -1,5 +1,6 @@
 .showcase-wrapper {
     .showcase-imgs-wrapper { 
+        position: relative;
         display: grid;
         grid-template-columns: 1fr 1fr;
         .showcase-img-wrapper {
@@ -10,6 +11,29 @@
                 height: auto;
                 object-fit: cover;
             }
+        }
+    }
+    .showcase-text-wrapper {
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background-color: aliceblue;
+        opacity: 0.9;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        .text-header {
+            text-align: center;
+            font-weight: 700;
+            font-size: 30px;
+            padding-top: 20px;
+        }
+        p {
+            font-size: 20px;
+            padding-top: 20px;
+            font-style: italic;
+            line-height: 1.7em;
         }
     }
 }
@@ -26,6 +50,14 @@
                     height: auto;
                     object-fit: cover;
                 }
+            }
+        }
+        .showcase-text-wrapper {
+            .text-header {
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
             }
         }
     }

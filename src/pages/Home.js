@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import Layout from '../layout'
 import bgImage from '../images/bgImage.png';
 
@@ -22,9 +24,9 @@ function Home() {
 
           </div>
           <div className='banner-request'>
-            <div className='request-button'>
-              <a>Check out our <br></br>favorite installs</a>
-            </div>
+            <Link to='/showcase' className='request-button'>
+              Check out our <br></br>favorite installs!
+            </Link>
           </div>
         </div>
       </div>
