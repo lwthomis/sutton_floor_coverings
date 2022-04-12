@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import sfcLogo from '../images/sfcLogo.png';
+import hfLogo from '../images/hfLogo.png';
+
 
 function Navbar() {
   return (
@@ -14,6 +16,20 @@ function Navbar() {
             <Link to='/contact' className='navbar-link'>Contact Us</Link>
             <Link to='/showcase' className='navbar-link'>Showcase</Link>
         </div>
+        <a className='homefloor-link' href='https://www.homefloorandkitchens.com' alt="homefloor logo" rel="noreferrer" target="_blank">
+          {/* <div className='homefloor-img-wrapper'> */}
+            <img className='homefloor-img' src={hfLogo} alt='Homefloor logo' href='https://google.com'/>
+            <div className='homefloor-text'>Installer</div>
+          {/* </div> */}
+        </a>
+
+
+        {/* <div className='homefloor-logo-wrapper'>
+            <div className='homefloor-img-wrapper'>
+              <img className='homefloor-img' src={hfLogo} alt='Homefloor logo' href='https://google.com'/>
+            </div>
+          </a>
+        </div> */}
     </div>
   )
 }

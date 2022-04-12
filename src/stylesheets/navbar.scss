@@ -1,11 +1,11 @@
 .navbar-wrapper {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 3fr 1fr;
     background-color: rgb(249, 211, 140);
-    display: flex;
     height: 150px;
 
     .sutton-logo-wrapper {
+        height: inherit;
         .sutton-logo {
             height: 80%;
             background-size: contain;
@@ -15,6 +15,7 @@
     }
 
     .navbar-links {
+        height: inherit;
         display: flex;
         align-items: center;
         margin-left: 50px;
@@ -30,6 +31,27 @@
                 text-decoration: none;
             }
         }
+    }
+    .homefloor-link {
+        // .homefloor-img-wrapper {
+        //     height: 100%;
+            .homefloor-img {
+                height: 75px;
+                margin-top: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .homefloor-text {
+                font-weight: bold;
+                color: rgb(1, 49, 91);
+                text-align: center;
+                text-decoration: none;
+                transition: all 0.3s ease-in-out;
+    
+                // border: 1px solid rgb(1, 49, 91);
+            }
+        // }
     }
 }
 
@@ -52,4 +74,5 @@
             }
         }
     }
+
 }
