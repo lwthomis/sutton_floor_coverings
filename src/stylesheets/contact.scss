@@ -1,0 +1,29 @@
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: antiquewhite;
+    height: 100vh;
+    .left-side-wrapper {
+        img {
+            height: 100%;
+            max-width: 33vw;
+            position: absolute;
+            left: 0;
+            object-fit: cover;
+            
+        }
+    }
+    .right-side-wrapper {
+        margin-top: 250px;
+        .contact-wrapper {
+            text-align: center;
+
+            .contact-header {
+                font-size: 50px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+    
+        }
+    }
+}
