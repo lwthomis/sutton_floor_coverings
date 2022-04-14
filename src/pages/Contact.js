@@ -8,14 +8,14 @@ function Contact() {
     <Layout>
       <div className='contact-wrapper'>
         <div className='left-side-wrapper'>
-          <img src={contactImg} alt='sidebar image'/>
+          {/* <img src={contactImg} alt='sidebar image'/> */}
         </div>
         <div className='right-side-wrapper'>
           <div className='contact-wrapper'>
-            <div className='contact-header'>Contact Me</div>
-            <div className='contact-phone'>(270) 508-0383</div>
-            <div className='contact-email'>matt@email.com</div>
-            <div className='contact-address'>Paducah, KY</div>
+            <h1 className='contact-header'>Contact Me</h1>
+            <div className='bullet'>(270) 508-0383</div>
+            <div className='bullet'>matt@email.com</div>
+            <div className='bullet'>Paducah, KY</div>
           </div>
         </div>
       </div>
