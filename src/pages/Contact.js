@@ -1,14 +1,11 @@
 import React from 'react'
 import Layout from '../layout'
 
-import contactImg from '../images/bgImage.png';
-
 function Contact() {
   return (
     <Layout>
       <div className='contact-wrapper'>
         <div className='left-side-wrapper'>
-          {/* <img src={contactImg} alt='sidebar image'/> */}
         </div>
         <div className='right-side-wrapper'>
           <div className='contact-wrapper'>
