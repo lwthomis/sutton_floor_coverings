@@ -11,7 +11,7 @@ function Contact() {
           <div className='contact-wrapper'>
             <h1 className='contact-header'>Contact Me</h1>
             <div className='bullet'>(270) 508-0383</div>
-            <div className='bullet'>matt@email.com</div>
+            <div className='bullet'>matt@suttonfloorcoverings.com</div>
             <div className='bullet'>Paducah, KY</div>
           </div>
         </div>
